@@ -6,7 +6,7 @@ We are thus going to learn how to modify our MD code to make the system sample t
 
 * We know, from the derivation of the ideal gas law, that if we are sampling from the canonical (NVT) ensemble the distribution of momentum along each degree of freedom is given by:
 
-![](https://render.githubusercontent.com/render/math?math=f(p_x)\propto\e^{-\frac{p_x^2}{2k_BTm}})
+![](https://render.githubusercontent.com/render/math?math=f(p_x)\propto\exp\left(-\frac{p_x^2}{2k_BTm}\right))
 
 In other words, for each degree of freedom, the momentum is a sample from a normal distribution with mean 0 and variance ![](https://render.githubusercontent.com/render/math?math=k_BTm). 
 
