@@ -3,8 +3,7 @@ import numpy as np
 
 def gen_vel(temp) :
   #Your code goes here
-  
-  vel = 0
+  vel = np.sqrt(temp)*np.random.normal()
   return vel
   
   
